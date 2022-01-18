@@ -1,0 +1,12 @@
+<p>Name: </p>
+<input type="text" id="updatedName" value={{user.name}} />
+
+<p>Contact Information:</p>
+<input type="text" id="updatedContactinfo" value={{user.contactInfo}} />
+
+<p>Bio</p>
+<input type="text" id="updatedBio" value={{user.bio}} />
+
+<br>
+
+<button (click) = "updateUser()" (click) ="goToProfile()">Update</button>
